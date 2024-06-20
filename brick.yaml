@@ -31,3 +31,8 @@ vars:
     description: Your feature name
     default: lego_architecture_feature
     prompt: What is your feature name?
+  use_design_system:
+    type: boolean
+    description: Is your project contain design system in `core/design_system`
+    default: true
+    prompt: Is your project contain design system in `core/design_system`?
