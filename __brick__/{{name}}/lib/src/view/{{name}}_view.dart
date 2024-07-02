@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class {{name}}View extends StatelessWidget {
+class {{name.pascalCase()}}View extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

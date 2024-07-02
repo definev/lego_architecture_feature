@@ -36,3 +36,13 @@ vars:
     description: Is your project contain design system in `core/design_system`
     default: true
     prompt: Is your project contain design system in `core/design_system`?
+  use_mix:
+    type: boolean
+    description: Is your project contain `mix` package?
+    default: true
+    prompt: Is your project contain `mix` package?
+  use_flextras:
+    type: boolean
+    description: Is your project contain `flextras` package?
+    default: true
+    prompt: Is your project contain `flextras` package?
